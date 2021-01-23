@@ -129,10 +129,13 @@
     <Compile Include="Models\Korisnici.cs" />
     <Compile Include="Models\Korisnik.cs" />
     <Compile Include="Models\Lokacija.cs" />
+    <Compile Include="Models\Manifestacija.cs" />
     <Compile Include="Models\MestoOdrzavanja.cs" />
     <Compile Include="Models\PolKorisnika.cs" />
     <Compile Include="Models\Prodavac.cs" />
+    <Compile Include="Models\StatusManifestacije.cs" />
     <Compile Include="Models\TipKorisnika.cs" />
+    <Compile Include="Models\TipManifestacije.cs" />
     <Compile Include="Models\UlogaKorisnika.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -170,8 +173,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup />
