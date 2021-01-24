@@ -24,6 +24,8 @@ namespace ProjektniZadatak.Models
 
             sw.Close();
             stream.Close();
+
+            return manifestacije;
         }
     }
 }
