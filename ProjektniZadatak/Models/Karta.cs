@@ -13,5 +13,10 @@ namespace ProjektniZadatak.Models
         private Kupac kupac;
         private StatusKarte statusKarte;
         private TipKarte tipKarte;
+
+        public Karta()
+        {
+
+        }
     }
 }
