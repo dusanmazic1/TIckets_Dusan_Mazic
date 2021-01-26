@@ -125,6 +125,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataKorisnik.cs" />
+    <Compile Include="Models\DataManifestacije.cs" />
     <Compile Include="Models\ImeTipaKorisnika.cs" />
     <Compile Include="Models\Korisnici.cs" />
     <Compile Include="Models\Korisnik.cs" />
