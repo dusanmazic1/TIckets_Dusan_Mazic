@@ -128,6 +128,7 @@
     <Compile Include="Models\DataManifestacije.cs" />
     <Compile Include="Models\ImeTipaKorisnika.cs" />
     <Compile Include="Models\Karta.cs" />
+    <Compile Include="Models\Karte.cs" />
     <Compile Include="Models\Korisnici.cs" />
     <Compile Include="Models\Korisnik.cs" />
     <Compile Include="Models\Kupac.cs" />
