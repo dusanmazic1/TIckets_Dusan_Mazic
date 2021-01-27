@@ -126,6 +126,7 @@
     </Compile>
     <Compile Include="Models\DataKarte.cs" />
     <Compile Include="Models\DataKorisnik.cs" />
+    <Compile Include="Models\DataKupac.cs" />
     <Compile Include="Models\DataManifestacije.cs" />
     <Compile Include="Models\ImeTipaKorisnika.cs" />
     <Compile Include="Models\Karta.cs" />
