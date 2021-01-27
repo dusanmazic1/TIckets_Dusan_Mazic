@@ -7,8 +7,8 @@ namespace ProjektniZadatak.Models
 {
     public class Komentar
     {
-        private Kupac imeKupca;
-        private Manifestacija nazivManifestacije;
+        private Kupac kupac;
+        private Manifestacija manifestacija;
         private string textKomentara;
         private int ocena;
 
@@ -23,14 +23,14 @@ namespace ProjektniZadatak.Models
             Kupac k = kupci.Find(u => u.Korinsik.KorisnickoIme.Equals(imeKupca));
             Manifestacija m = manifestacije.Find(u => u.Naziv.Equals(nazivManifestacije));
 
-            ImeKupca = k;
-            NazivManifestacije = m;
+            Kupac = k;
+            Manifestacija = m;
             this.TextKomentara = textKomentara;
             this.Ocena = ocena;
         }
 
-        public Kupac ImeKupca { get => imeKupca; set => imeKupca = value; }
-        public Manifestacija NazivManifestacije { get => nazivManifestacije; set => nazivManifestacije = value; }
+        public Kupac Kupac { get => kupac; set => kupac = value; }
+        public Manifestacija Manifestacija { get => manifestacija; set => manifestacija = value; }
         public string TextKomentara { get => textKomentara; set => textKomentara = value; }
         public int Ocena { get => ocena; set => ocena = value; }
     }

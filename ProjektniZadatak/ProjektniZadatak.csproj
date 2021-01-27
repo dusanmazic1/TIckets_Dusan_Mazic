@@ -132,6 +132,7 @@
     <Compile Include="Models\Karta.cs" />
     <Compile Include="Models\Karte.cs" />
     <Compile Include="Models\Komentar.cs" />
+    <Compile Include="Models\Komentari.cs" />
     <Compile Include="Models\Korisnici.cs" />
     <Compile Include="Models\Korisnik.cs" />
     <Compile Include="Models\Kupac.cs" />
