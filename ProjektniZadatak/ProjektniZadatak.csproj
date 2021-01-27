@@ -125,6 +125,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\DataKarte.cs" />
+    <Compile Include="Models\DataKomentari.cs" />
     <Compile Include="Models\DataKorisnik.cs" />
     <Compile Include="Models\DataKupac.cs" />
     <Compile Include="Models\DataManifestacije.cs" />
