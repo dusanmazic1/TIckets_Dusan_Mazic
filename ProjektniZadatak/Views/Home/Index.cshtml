@@ -1,2 +1,18 @@
 ﻿@using ProjektniZadatak.Models
 
+@model List<Manifestacija>
+@{
+    ViewBag.Title = "Home page";
+}
+
+<br />
+<form action="~/Models/Manifestacija/Pretraga">
+    <input type="text" name="naziv" placeholder="Naziv" />
+    <input type="text" name="mesto" placeholder="Grad" />
+    <input type="date" name="datumOd" placeholder="Od" />
+    <input type="date" name="datumDo" placeholder="Do" />
+    <input type="number" name="cenaOd" placeholder="Cena Od" min="0" />
+    <input type="number" name="cenaDo" placeholder="Cena Do" min="0" />
+    <input type="submit" value="Pretrazi" />
+</form>
+
