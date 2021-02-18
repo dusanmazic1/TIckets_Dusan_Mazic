@@ -18,8 +18,20 @@ namespace ProjektniZadatak
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
 
-            //TODO: Need to fill here so it could know wgere to find all paths
-            /*List<Korisnik> korisnici =*/
+            List<Korisnik> korisnici = DataKorisnik.ReadUser("~/App_Data/korisnici.txt");
+            HttpContext.Current.Application["korisnici"] = korisnici;
+
+            List<Manifestacija> manifestacije = DataManifestacije.ReadManifestationt("~/App_Data/manifestacije.txt");
+            HttpContext.Current.Application["manifestacije"] = manifestacije;
+
+            List<Kupac> kupci = DataKupac.ReadKupac("~/App_Data/kupci.txt");
+            HttpContext.Current.Application["kupci"] = kupci;
+
+            List<Karta> karte = DataKarte.ReadKarte("~/App_Data/karte.txt");
+            HttpContext.Current.Application["karte"] = karte;
+
+            List<Komentar> komentari = DataKomentari.RedKometar("~/App_Data/komentari.txt");
+            HttpContext.Current.Application["komentari"] = komentari;
         }
     }
 }
