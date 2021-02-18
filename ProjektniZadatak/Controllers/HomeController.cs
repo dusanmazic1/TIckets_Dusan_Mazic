@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ProjektniZadatak.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -10,21 +11,14 @@ namespace ProjektniZadatak.Controllers
     {
         public ActionResult Index()
         {
-            return View();
+            List<Manifestacija> manifestacije = (List<Manifestacija>)HttpContext.Application["manifestacije"];
+            List<Manifestacija> sortiraneManifestacije = new List<Manifestacija>();
+
+            sortiraneManifestacije = manifestacije.OrderBy(o => o.Vreme).ToList();
+            sortiraneManifestacije.Reverse();
+
+            return View(sortiraneManifestacije);
         }
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
-
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
-        }
     }
 }

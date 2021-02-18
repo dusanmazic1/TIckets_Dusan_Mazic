@@ -1,1 +1,5 @@
-﻿
+﻿Exit;Festival;40000;12-08-2020 19:30:00;6000;12000;24000;Aktivno;Beogradska;2;21131;Petrovaradin;prodavac1;39996
+Koncert Godine;Koncert;3000;29-06-2020 15:36:00;1500;3000;6000;Neaktivno;Sutjeska;2;21000;Novi Sad;prodavac1;3000
+Parni Valjak;Koncert;2500;29-06-2020 15:34:00;2500;5000;10000;Aktivno;Bulevar Arsenija Carnojevica;58;11000;Beograd;prodavac2;2494
+Hamlet;Pozoriste;250;02-07-2020 15:11:00;500;1000;2000;Aktivno;Pozorisni trg;1;21000;Novi Sad;prodavac2;250
+Biber;Koncert;55;04-10-2020 10:03:00;1200;2400;4800;Aktivno;Cvecarska;2a;21000;Novi Sad;prodavac1;43
